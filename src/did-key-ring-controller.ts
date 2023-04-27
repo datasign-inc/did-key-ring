@@ -93,7 +93,7 @@ export class DIDKeyRingController {
   }
   static async recover(newPassword: string, secretRecoveryPhrase: string) {
     const keyRingController = new SingleHDKeyRingController();
-    await keyRingController.restore("new-password", secretRecoveryPhrase);
+    await keyRingController.restore(newPassword, secretRecoveryPhrase);
     return new DIDKeyRingController(
       keyRingController,
       keyRingController.encryptedVault
