@@ -2130,6 +2130,14 @@ electron-to-chromium@^1.4.284:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.341.tgz#ab31e9e57ef7758a14c7a7977a1978d599514470"
   integrity sha512-R4A8VfUBQY9WmAhuqY5tjHRf5fH2AAf6vqitBOE0y6u2PgHgqHSrhZmu78dIX3fVZtjqlwJNX1i2zwC3VpHtQQ==
 
+elliptic-jwk@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/elliptic-jwk/-/elliptic-jwk-0.0.1.tgz#ad18db4840670a1bbadab0e1273139e11c7528cb"
+  integrity sha512-Z/n3wL1wbkUDUBC3Q3ypEoZdhSkTcGrHejScEatX08Gh+PlAjY0O4E0tfL4m/SEsd0ZMgU5zphVMzF6dm2IKVQ==
+  dependencies:
+    base64url "^3.0.1"
+    elliptic "^6.5.4"
+
 elliptic@^6.5.2, elliptic@^6.5.4:
   version "6.5.4"
   resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.4.tgz#da37cebd31e79a1367e941b592ed1fbebd58abbb"

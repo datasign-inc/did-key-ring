@@ -1,12 +1,19 @@
 {
   "name": "did-key-ring",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datasign-inc/did-key-ring"
+  },
+  "homepage": "https://github.com/datasign-inc/did-key-ring",
   "main": "./dist/cjs/src/index.js",
   "module": "dist/esm/src/index.js",
   "type": "module",
   "types": "dist/types/src/index.d",
   "license": "MIT",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     "import": "./dist/esm/src/index.js",
     "require": "./dist/cjs/src/index.js"
@@ -23,6 +30,7 @@
     "@metamask/eth-hd-keyring": "^6.0.0",
     "base64url": "^3.0.1",
     "did-resolver": "^4.1.0",
+    "elliptic-jwk": "^0.0.1",
     "eth-keyring-controller": "^8.1.0"
   },
   "devDependencies": {
