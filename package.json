@@ -1,6 +1,6 @@
 {
   "name": "did-key-ring",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/datasign-inc/did-key-ring"
@@ -26,7 +26,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "@decentralized-identity/ion-tools": "^1.0.6",
     "@metamask/eth-hd-keyring": "^6.0.0",
     "base64url": "^3.0.1",
     "did-resolver": "^4.1.0",
